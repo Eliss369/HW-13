@@ -36,32 +36,63 @@ body {
 .list-link-item:nth-child(2n) {
   color: var(--blue-color);
 }
-/* flex */
-.flex-container {
+
+/* header-flex */
+
+.header-flex {
   display: flex;
-  width: 1600px;
-  align-items: center;
 }
-.header-contacts-item,
-.header-nav-item {
-  margin-right: 50px;
+.header {
+  height: 80px;
+  width: 1600px;
 }
 .header-logo {
   margin-right: 91px;
-  font-weight: 700;
   font-family: Raleway;
+  font-size: 26px;
   line-height: 30.52px;
 }
+.header-nav-item:not(:last-child),
+.header-contacts-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .header-nav-list {
   margin-right: 344px;
 }
-.advatages-title,
-.photos-title,
+
+/* advatages-flex */
+.advatages-flex {
+  display: flex;
+}
+.advatages-title {
+  display: flex;
+  justify-content: center;
+  line-height: 16.41px;
+}
+
+/* team-flex */
 .team-title {
   display: flex;
   justify-content: center;
+  padding-top: 94px;
 }
-
+.team-flex {
+  display: flex;
+  justify-content: center;
+}
+.team-flex:not(:last-child) {
+  margin-right: 30px;
+}
+/* photos-flex */
+.photos-flex {
+  display: flex;
+  justify-content: center;
+}
+.photos-title {
+  display: flex;
+  justify-content: center;
+}
 /* hero  */
 .hero {
   background-color: var(--dark-blue-color);
@@ -77,10 +108,17 @@ body {
   color: var(--white-color);
   font-size: 16px;
   line-height: calc(30 / 16);
+  margin-right: 500px;
+  margin-top: 140px;
 }
 .hero-title {
+  padding-top: 175px;
   line-height: 60px;
   color: var(--white-color);
+  height: 120px;
+  width: 696px;
+  font-weight: 900;
+  font-size: 44px;
 }
 /* team */
 .team-list-item {
