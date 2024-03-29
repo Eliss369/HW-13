@@ -44,7 +44,6 @@ body {
 }
 .header {
   height: 80px;
-  width: 1600px;
 }
 .header-logo {
   margin-right: 91px;
@@ -57,7 +56,7 @@ body {
   margin-right: 50px;
 }
 
-.header-nav-list {
+.header-nav-list:not(:last-child) {
   margin-right: 344px;
 }
 
