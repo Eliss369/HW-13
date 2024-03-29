@@ -56,7 +56,7 @@ body {
   margin-right: 50px;
 }
 
-.header-nav-list:not(:last-child) {
+.header-nav-list {
   margin-right: 344px;
 }
 
@@ -107,11 +107,12 @@ body {
   color: var(--white-color);
   font-size: 16px;
   line-height: calc(30 / 16);
-  margin-right: 500px;
+  margin-right: 100px;
   margin-top: 140px;
 }
 .hero-title {
   padding-top: 175px;
+  margin-left: 200px;
   line-height: 60px;
   color: var(--white-color);
   height: 120px;
