@@ -121,7 +121,7 @@ body {
   font-size: 44px;
 }
 /* team */
-.team-list-item {
+.team-list-item:not(:last-child) {
   margin-right: 30px;
 }
 /* photos */
@@ -142,7 +142,7 @@ body {
   line-height: 18.75px;
   font-weight: 400;
 }
-.photos-list-item {
+.photos-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -152,7 +152,7 @@ body {
   font-weight: 400;
   line-height: inherit;
 }
-.advatages-list-item {
+.advatages-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
