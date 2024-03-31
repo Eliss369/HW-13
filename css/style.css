@@ -41,10 +41,10 @@ body {
 
 .header-flex {
   display: flex;
-}
-.header {
   height: 80px;
+  align-items: center;
 }
+
 .header-logo {
   margin-right: 91px;
   font-family: Raleway;
@@ -63,6 +63,7 @@ body {
 /* advatages-flex */
 .advatages-flex {
   display: flex;
+  align-items: center;
 }
 .advatages-title {
   display: flex;
